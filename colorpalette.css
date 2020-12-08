@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #6874e8;
+}
+h1{
+    text-align: center;
+}
+nav{
+    box-shadow: 1px 1px 15px black;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #0d1321;
+}
+.nav-center{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+li{
+    margin: 0 50%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    margin: 10% 0 0 0;
+    text-align: center;
+}
+.background{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+h2{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.color1{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 200px;
+    background-color: gainsboro;
+    box-shadow: 1px 1px 20px black; 
+}
+
+.color2{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 200px;
+    background-color: darkgray;
+    box-shadow: 1px 1px 20px black;
+}
+
+.color3{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 200px;
+    background-color: lightgray;
+    box-shadow: 1px 1px 20px black;
+}
+
+.color4{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    box-shadow: 1px 1px 20px black;
+}
+
+.color5{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 200px;
+    background-color: darkgray;
+    box-shadow: 1px 1px 20px black;
+}
+
+.color6{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    box-shadow: 1px 1px 20px black;
+    
+}
+
+.btn{
+    padding: 10px 20px;
+    margin: 5% 0 0 0 ;
+    border: 2px solid black;
+    background-color: transparent;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
